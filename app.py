@@ -3,7 +3,7 @@ st.title("                            BristolApp")
 st.image("WAPP.png",None,150)
 st.success("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
 
-col1,col2, col3=st.beta_columns(3)
+col1,col2=st.beta_columns(2)
 
 
 with col1:
