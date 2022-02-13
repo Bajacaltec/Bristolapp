@@ -1,9 +1,11 @@
 import streamlit as st
 fol1,fol2=st.beta_columns(2)
 with fol1:
-    st.image("WAPP.png",None,300)
-with fol2:
     st.title("                            BristolApp")
+
+with fol2:
+    st.image("WAPP.png",None,410)
+
 st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
 col1,col2=st.columns(2)
 
