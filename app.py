@@ -19,16 +19,22 @@ elif sel=='2':
         st.image('B2.png')
     with col2:
         st.subheader("Con forma de salchica, pero grumosa (compuesta de fragmentos)")
+    st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
+
 elif sel=='3':
     with col1:
         st.image('B3.png')
     with col2:
         st.subheader("Con forma de Salchica, pero con grietas en la superficie")
+    st.success("Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces")
+    st.balloons()
 elif sel=='4':
     with col1:
         st.image('B4.png')
     with col2:
         st.subheader("Con forma de salchicha pero lisa y suave")
+    st.success("Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces")
+    st.balloons()
 elif sel=='5':
     with col1:
         st.image('B5.png')
