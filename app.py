@@ -28,9 +28,7 @@ elif sel=='4':
     with col1:
         st.image('B4.png')
     with col2:
-        bis4='<p style="font-family:Calibri; color:Brown; font-size: 40px;">Con forma de salchicha pero lisa y suave</p>'
-        st.markdown(bis4, unsafe_allow_html=True)
-        st.subheader("")
+        st.subheader("Con forma de salchicha pero lisa y suave")
 elif sel=='5':
     with col1:
         st.image('B5.png')
@@ -45,5 +43,5 @@ elif sel=='7':
     with col1:
         st.image('B7.png')
     with col2:
-        st.subheader("Acuosa, sin pedazos sólidos, totalmente líquida")
+        st.subheader("Acuosa, sin pedazos sólidos, totalmente")
 #Come
