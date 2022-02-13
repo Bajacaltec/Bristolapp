@@ -25,3 +25,4 @@ elif sel=='3':
     with col2:
         st.subheader("Con forma de Salchica, pero con grietas en la superficie")
 
+#Come
