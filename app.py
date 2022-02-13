@@ -1,5 +1,5 @@
 import streamlit as st
-st.image("WAPP.png",None,500)
+st.image("WAPP.png",None,300)
 st.title("                            BristolApp")
 st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
 col1,col2=st.columns(2)
