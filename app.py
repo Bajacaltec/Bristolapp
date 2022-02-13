@@ -6,8 +6,8 @@ st.success("Identifica el tipo de evacuaciones que tienes y verémos si necesita
 col1,col2=st.beta_columns(2)
 
 
-with col1:
-    sel=st.select_slider('Bristol', ['1','2','3','4','5','6','7'])
+
+sel=st.select_slider('Bristol', ['1','2','3','4','5','6','7'])
 if sel=='1':
     with col1:
         st.image('B1.png')
