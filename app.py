@@ -1,5 +1,5 @@
 import streamlit as st
-fol1,fol2=st.beta_columns
+fol1,fol2=st.beta_columns(2)
 with fol1:
     st.image("WAPP.png",None,300)
 with fol2:
