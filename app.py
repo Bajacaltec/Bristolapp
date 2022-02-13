@@ -11,9 +11,10 @@ with col1:
 if sel=='1':
     with col1:
         st.image('B1.png')
-    st.subheader("Pedazos duros separados. Como Nueces")
     with col2:
-        st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium platago, 1 cucharada con 1 litro de agua diariamente")
+        st.subheader("Pedazos duros separados. Como Nueces")
+
+    st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium platago, 1 cucharada con 1 litro de agua diariamente")
 elif sel=='2':
     with col1:
         st.image('B2.png')
