@@ -13,27 +13,27 @@ col1,col2,col3,col4,col5,col6,col7=st.columns(7)
 
 with col1:
     st.subheader('B1')
-    st.image('B1.png')
+    st.image('B1.png',None,100)
     st.markdown("Pedazos duros separados. Como nueces y con excreción difícil")
 with col2:
     st.subheader('B2')
-    st.image("B2.png")
+    st.image("B2.png",None,100)
     st.markdown("Con forma de salchicha, pero grumosa (compuesta de fragmentos")
 with col3:
     st.subheader("B3")
-    st.image("B3.png")
+    st.image("B3.png",None,100)
     st.markdown("Con forma de salchica, pero con grietas en la superficie")
 with col4:
     st.subheader('B4')
-    st.image("B4.png")
+    st.image("B4.png",None,100)
     st.markdown('Con forma de salchica pero lisa y suave')
 with col5:
     st.subheader("B5")
-    st.image('B5.png')
+    st.image('B5.png',None,100)
     st.markdown("Trozos de pastosos con bordes bien definidos")
 with col6:
     st.subheader("B6")
-    st.image('B6.png')
+    st.image('B6.png',None,100)
     st.markdown("Pedazos blandos y esponjosos con bordes irregulares")
 with col7:
     st.subheader("B7")
