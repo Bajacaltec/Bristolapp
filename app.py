@@ -69,7 +69,7 @@ if selecccion==True:
     st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
 
       
-st.expander("Abre para ver mas"):
+st.expander("Abre para ver mas")
     st.image("bristol.png")
 
 
