@@ -43,7 +43,7 @@ with col7:
 st.info("Selecciona desplazando la barra inferior de izquierda a derecha")
 selecccion=st.select_slider('Elige',['Bristol','B1','B2','B3','B4','B5','B6','B7'])
 
-izq,der=st.beta_columns(2)
+izq,der=st.columns(2)
 if selecccion=='B1':
     st.warning("Característico del estreñimiento, debes aumentar el consumo de fibra o iniciar el consumo de fibra en suplementos como el Psyllium plantago tomando 1 cucharada con 1 litro de agua diariamente")
     st.error("Recuerda que el estreñimiento crónico puede llevar al desarrollo de múltiples enfermedad")
