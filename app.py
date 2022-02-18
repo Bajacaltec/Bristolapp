@@ -1,6 +1,7 @@
 from email.utils import collapse_rfc2231_value
 from enum import auto
 import streamlit as st
+st.set_page_config(layout="wide")
 fol1,fol2=st.columns(2)
 with fol1:
     st.title("                            BristolApp")
