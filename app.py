@@ -4,7 +4,8 @@ import streamlit as st
 
 #Con esto puedes utilizar toda la pantalla para las columnas, en telefono no hay cambios
 st.set_page_config(layout="wide")
-fol1,fol2=st.columns((2,1))
+#En st.columns si les pones en el parentesis ((2,1)) la primera columna es el doble de grande que la segunda
+fol1,fol2=st.columns(2))
 with fol1:
     st.title("                            BristolApp")
 
