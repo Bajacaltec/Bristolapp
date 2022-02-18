@@ -68,32 +68,10 @@ if bri7==True:
     with col7:
         st.subheader('B7')
         st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
-
+st.slider('Elige',1,7)
 
       
 
 
 
 
-
-# elif sel=='5':
-#     with col1:
-#         st.image('B5.png')
-#     with col2:
-#         st.subheader("Trozos pastosos con bordes bien definidos")
-#     st.warning("")
-# elif sel=='6':
-#     with col1:
-#         st.image('B6.png')
-#     with col2:
-#         st.subheader("Pedazos blandos y esponjosos con bordes irregulares")
-#     st.warning("Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica")
-
-# elif sel=='7':
-#     with col1:
-#         st.image('B7.png')
-#     with col2:
-#         st.subheader("Acuosa, sin pedazos sólidos, totalmente")
-#     st.warning("Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica")
-
-# #Come
