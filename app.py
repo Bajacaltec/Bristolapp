@@ -12,12 +12,15 @@ col1,col2,col3,col4,col5,col6,col7=st.beta_columns(7)
 with col1:
     st.image('B1.png')
     st.markdown("Pedazos duros separados. Como nueces y con excreción difícil")
+    bri1=st.button()
 with col2:
     st.image("B2.png")
     st.markdown("Con forma de salchicha, pero grumosa (compuesta de fragmentos")
+    bri2=st.checkbox()
 with col3:
     st.image("B3.png")
     st.markdown("Con forma de salchica, pero con grietas en la superficie")
+    bri3=st.selectbox(None,['No','Esta'])
 with col4:
     st.image("B4.png")
     st.markdown('Con forma de salchica pero lisa y suave')
