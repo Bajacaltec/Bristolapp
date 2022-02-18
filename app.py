@@ -7,7 +7,7 @@ with fol1:
 with fol2:
     st.image("WAPP.png",None,350)
 
-col1,col2=st.columns(2):
+col1,col2=st.columns(2)
 with col1:
     st.image('B1.png')
     st.image('B2.png')
