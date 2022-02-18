@@ -1,3 +1,4 @@
+from email.utils import collapse_rfc2231_value
 import streamlit as st
 fol1,fol2=st.beta_columns(2)
 with fol1:
@@ -38,7 +39,10 @@ with col7:
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
     bri7=st.checkbox('B7')
 if bri1==True:
-    st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
+    with collapse_rfc2231_value:
+        st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
+    with col1:
+        st.info("B1")
 if bri2==True:
     st.info('Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente')
 if bri3==True:
