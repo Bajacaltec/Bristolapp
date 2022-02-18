@@ -41,7 +41,8 @@ with col7:
     st.image('B7.png',None,100)
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
 st.info("Selecciona desplazando la barra inferior de izquierda a derecha")
-selecccion=st.select_slider('Elige',['Bristol','B1','B2','B3','B4','B5','B6','B7'],None,st.write("elegiste"))
+selecccion=st.select_slider('Elige',['Bristol','B1','B2','B3','B4','B5','B6','B7'],None)
+st.markdown("haz elegido"+selecccion)
 
 yol1,yol2=st.columns(2)
 if selecccion=='B1':
