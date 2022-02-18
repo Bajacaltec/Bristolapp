@@ -75,7 +75,8 @@ if selecccion==True:
 #     if selecccion=='B1':
 #         st.warning('Ph')
 
-with st.container():
-            # container.st.image('B2.png')
-    container.write("Afuera")
+c=st.container()
+c.write("Hola")
+st.write("Bola")
+c.image('B2.png')
 
