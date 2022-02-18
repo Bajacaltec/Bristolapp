@@ -11,6 +11,7 @@ st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesi
 col1,col2,col3,col4,col5,col6,col7=st.columns(7)
 
 with col1:
+    st.subheader('Bristol1 (B1)')
     st.image('B1.png')
     st.markdown("Pedazos duros separados. Como nueces y con excreción difícil")
 with col2:
