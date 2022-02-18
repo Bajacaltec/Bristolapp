@@ -35,7 +35,7 @@ with col4:
 with col5:
     st.subheader("B5")
     st.image('B5.png',None,100)
-    st.markdown("Trozos de pastosos con bordes bien definidos")
+    st.markdown("Trozos pastosos con bordes bien definidos")
 with col6:
     st.subheader("B6")
     st.image('B6.png',None,100)
