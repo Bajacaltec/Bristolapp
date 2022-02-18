@@ -1,4 +1,5 @@
 from email.utils import collapse_rfc2231_value
+from enum import auto
 import streamlit as st
 fol1,fol2=st.columns(2)
 with fol1:
@@ -36,7 +37,7 @@ with col6:
     st.markdown("Pedazos blandos y esponjosos con bordes irregulares")
 with col7:
     st.subheader("B7")
-    st.image('B7.png',None,200)
+    st.image('B7.png',None,200,auto)
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
 selecccion=st.select_slider('Elige',['B1','B2','B3','B4','B5','B6','B7'])
 
