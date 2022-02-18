@@ -39,6 +39,7 @@ with col7:
     st.subheader("B7")
     st.image('B7.png',None,100)
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
+    st.info("")
 selecccion=st.select_slider('Elige',['B1','B2','B3','B4','B5','B6','B7'])
 
 if selecccion=='B1':
