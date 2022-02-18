@@ -74,5 +74,7 @@ if selecccion==True:
 #     if selecccion=='B1':
 #         st.warning('Ph')
 
-
+with st.container():
+    st.image('B2.png')
+st.write("Afuera")
 
