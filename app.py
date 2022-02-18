@@ -9,8 +9,6 @@ with fol2:
 st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
 col1,col2,col3,col4,col5,col6,col7=st.beta_columns(7)
 
-
-
 with col1:
     st.image('B1.png')
     st.markdown("Pedazos duros separados. Como nueces y con excreción difícil")
