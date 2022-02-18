@@ -1,5 +1,6 @@
 from email.utils import collapse_rfc2231_value
 from enum import auto
+from matplotlib import container
 import streamlit as st
 fol1,fol2=st.columns(2)
 with fol1:
@@ -75,6 +76,6 @@ if selecccion==True:
 #         st.warning('Ph')
 
 with st.container():
-    st.image('B2.png')
-st.write("Afuera")
+    container.st.image('B2.png')
+container.write("Afuera")
 
