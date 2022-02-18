@@ -76,6 +76,6 @@ if selecccion==True:
 #         st.warning('Ph')
 
 with st.container():
-    container.st.image('B2.png')
+    # container.st.image('B2.png')
 container.write("Afuera")
 
