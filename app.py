@@ -39,18 +39,16 @@ with col7:
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
     bri7=st.checkbox('B7')
 if bri1==True:
-    st.subheader("B1")
     with col1:
+        st.subheader("B1")
         st.warning("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
-
-
 if bri2==True:
-    st.subheader("B2")
     with col2:
+        st.subheader("B2")
         st.warning('Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente')
 if bri3==True:
-    st.subheader('B3')
     with col3:
+        st.subheader('B3')
         st.success('Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces')
     st.balloons()
 if bri4==True:
