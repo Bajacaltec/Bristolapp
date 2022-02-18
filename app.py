@@ -39,8 +39,7 @@ with col7:
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
     bri7=st.checkbox('B7')
 if bri1==True:
-    with collapse_rfc2231_value:
-        st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
+    st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
     with col1:
         st.info("B1")
 if bri2==True:
