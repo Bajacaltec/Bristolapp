@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 #En st.columns si les pones en el parentesis ((2,1)) la primera columna es el doble de grande que la segunda
 fol1,fol2=st.columns(2)
 with fol1:
-    st.title("                            BristolApp")
+    st.title("BristolApp")
 
 with fol2:
     st.image("WAPP.png",None)
