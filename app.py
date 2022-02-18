@@ -41,7 +41,7 @@ with col7:
 if bri1==True:
     st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
     with col1:
-        st.info("B1")
+        st.subheader("B1")
 if bri2==True:
     st.info('Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente')
 if bri3==True:
