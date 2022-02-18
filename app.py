@@ -55,17 +55,21 @@ if bri3==True:
     st.balloons()
 if bri4==True:
     st.subheader('B4')
-    st.success('Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces')
+    with col4:
+        st.success('Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces')
     st.balloons()
 if bri5==True:
-    st.subheader('B5')
-    st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
+    with col5:
+        st.subheader('B5')
+        st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
 if bri6==True:
-    st.subheader('B6')
-    st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
+    with col6:
+        st.subheader('B6')
+        st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
 if bri7==True:
-    st.subheader('B7')
-    st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
+    with col7:
+        st.subheader('B7')
+        st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
 
 
       
