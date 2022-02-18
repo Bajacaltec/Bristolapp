@@ -40,7 +40,7 @@ with col7:
     st.image('B7.png',None,100)
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
 st.info("Selecciona desplazando la barra inferior de izquierda a derecha")
-selecccion=st.select_slider('Elige',['B1','B2','B3','B4','B5','B6','B7'])
+selecccion=st.select_slider('Elige',['Selecciona','B1','B2','B3','B4','B5','B6','B7'])
 
 if selecccion=='B1':
     st.warning("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
