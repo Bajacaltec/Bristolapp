@@ -16,11 +16,11 @@ with col1:
 with col2:
     st.image("B2.png")
     st.markdown("Con forma de salchicha, pero grumosa (compuesta de fragmentos")
-    bri2=st.checkbox(None)
+    bri2=st.checkbox('este')
 with col3:
     st.image("B3.png")
     st.markdown("Con forma de salchica, pero con grietas en la superficie")
-    bri3=st.selectbox(None,['No','Esta'])
+    bri3=st.selectbox('este',['No','Esta'])
 with col4:
     st.image("B4.png")
     st.markdown('Con forma de salchica pero lisa y suave')
