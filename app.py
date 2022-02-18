@@ -6,13 +6,15 @@ with fol1:
 
 with fol2:
     st.image("WAPP.png",None,350)
-
-col1,col2=st.columns(2)
+col1,col2,col2=st.columns(3)
 with col1:
-    st.image('B1.png')
-    st.image('B2.png')
+    sel=st.radio('Selecciona',['Bristol1','Bristol2´,´Bristol3'])
 with col2:
-    rad=st.radio("Elige el tipo de evacuaciones",['Bristol1','Bristol2'])
+    st.image("B1.png")
+    st.image('B2.png')
+    st.image('B3.png')
+with col3:
+    st.subheader("hijuela")
 
 st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
 col1,col2,col3,col4,col5,col6,col7=st.columns(7)
