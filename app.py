@@ -52,39 +52,29 @@ if bri4==True:
     st.subheader('B4')
     st.success('Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces')
     st.balloons()
+if bri5==True:
+    st.subheader('B5')
+    st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
+if bri6==True:
+    st.subheader('B6')
+    st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
+if bri6==True:
+    st.subheader('B7')
+    st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
 
-        # if bri2==True and bri1==False:
-        #     st.info("Característico del estreñimiento, debes aumentar el consumo de fibra, o iniciar el consumo de fibra en suplementos como el Psyllium plantago, 1 cucharada con 1 litro de agua diariamente")
-        # else:
-        #     st.warning("Elige una opción")
-        # if bri3==True:
-        #     st.success("Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces")
-        #     st.balloons()
+
+      
 
 
 
 
-#
 
-# elif sel=='3':
-#     with col1:
-#         st.image('B3.png')
-#     with col2:
-#         st.subheader("Con forma de Salchica, pero con grietas en la superficie")
-#     st.balloons()
-# elif sel=='4':
-#     with col1:
-#         st.image('B4.png')
-#     with col2:
-#         st.subheader("Con forma de salchicha pero lisa y suave")
-#     st.success("Excelente, tus heces son normales no debes realizar cambios en tu dieta respecto a la forma de tus heces")
-#     st.balloons()
 # elif sel=='5':
 #     with col1:
 #         st.image('B5.png')
 #     with col2:
 #         st.subheader("Trozos pastosos con bordes bien definidos")
-#     st.warning("Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica")
+#     st.warning("")
 # elif sel=='6':
 #     with col1:
 #         st.image('B6.png')
