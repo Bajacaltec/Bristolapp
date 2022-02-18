@@ -9,6 +9,7 @@ with fol2:
     st.image("WAPP.png",None,350)
 
 st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
+st.info("Desplazate por las imagenes hasta que encuentres el tipo de evacuación que tienes comunmente y posteriormente desplazada por la barra inferior para elegir en la escala de Bristol (B)")
 col1,col2,col3,col4,col5,col6,col7=st.columns(7)
 
 with col1:
