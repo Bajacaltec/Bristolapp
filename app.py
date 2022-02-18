@@ -58,7 +58,7 @@ if bri5==True:
 if bri6==True:
     st.subheader('B6')
     st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
-if bri6==True:
+if bri7==True:
     st.subheader('B7')
     st.warning('Existe un paso acelerado de las heces, puede deberse a un tránsito intestinal rápido, uso de laxantes o alteraciones en la absorción, amerita investigación médica')
 
