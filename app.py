@@ -13,6 +13,7 @@ with col1:
     st.image('B1.png')
     st.markdown("Pedazos duros separados. Como nueces y con excreción difícil")
     bri1=st.button("Este")
+    st.camera_input("Take a photo")
 with col2:
     st.image("B2.png")
     st.markdown("Con forma de salchicha, pero grumosa (compuesta de fragmentos")
@@ -24,6 +25,7 @@ with col3:
 with col4:
     st.image("B4.png")
     st.markdown('Con forma de salchica pero lisa y suave')
+    st.radio('Elige','Esta')
 with col5:
     st.image('B5.png')
     st.markdown("Trozos de pastosos con bordes bien definidos")
