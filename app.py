@@ -71,6 +71,8 @@ if selecccion==True:
       
 with st.expander("Abre para ver mas"):
     st.image("bristol.png")
+    if selecccion=='B1':
+        st.warning('Ph')
 
 
 
