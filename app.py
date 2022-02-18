@@ -5,12 +5,8 @@ import streamlit as st
 #Con esto puedes utilizar toda la pantalla para las columnas, en telefono no hay cambios
 st.set_page_config(layout="wide")
 #En st.columns si les pones en el parentesis ((2,1)) la primera columna es el doble de grande que la segunda
-fol1,fol2=st.columns(2)
-with fol1:
-    st.title("BristolApp")
-
-with fol2:
-    st.image("WAPP.png",None)
+st.title("BristolApp")
+st.image("WAPP.png",None)
 
 st.subheader("Identifica el tipo de evacuaciones que tienes y verémos si necesitas ajustar tu dieta")
 st.info("Desplazate por las imagenes hasta que encuentres el tipo de evacuación que tienes comunmente y posteriormente moviliza  la barra inferior para elegir la escala de Bristol que corresponda(B)")
