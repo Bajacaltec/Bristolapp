@@ -41,16 +41,18 @@ with col7:
     st.image('B7.png',None,100)
     st.markdown('Acuosa, sin pedazos sólidos, totalmente líquida')
 st.info("Selecciona desplazando la barra inferior de izquierda a derecha")
-selecccion=st.select_slider('Elige',['Bristol','B1','B2','B3','B4','B5','B6','B7'])
+selecccion=st.select_slider('Elige',['Bristol','B1','B2','B3','B4','B5','B6','B7'],None,st.write("elegiste"))
 
 yol1,yol2=st.columns(2)
 if selecccion=='B1':
-    st.warning("Característico del estreñimiento, debes aumentar el consumo de fibra o iniciar el consumo de fibra en suplementos como el Psyllium plantago tomando 1 cucharada con 1 litro de agua diariamente")
-    st.error("Recuerda que el estreñimiento crónico puede llevar al desarrollo de múltiples enfermedad")
+    with yol1:
+        st.warning("Característico del estreñimiento, debes aumentar el consumo  de agua a 2-3 litros al día y de fibra o iniciar el consumo de fibra en suplementos como el Psyllium plantago tomando 1 cucharada con 1 litro de agua diariamente")
+    with yol2:
+        st.error("Recuerda que el estreñimiento crónico puede llevar al desarrollo de múltiples enfermedad")
 
 elif selecccion=='B2':
     with yol1:
-        st.warning('Característico del estreñimiento, debes aumentar el consumo de fibra o iniciar el consumo de fibra en suplementos como el Psyllium plantago tomando 1 cucharada con 1 litro de agua diariamente')
+        st.warning('Característico del estreñimiento, debes aumentar el consumo de agua a 2-3 litros diario y el consumo de fibra o iniciar el consumo de fibra en suplementos como el Psyllium plantago tomando 1 cucharada con 1 litro de agua diariamente')
     with yol2:
         st.error("Recuerda que el estreñimiento crónico puede llevar al desarrollo de múltiples enfermedad")
 elif selecccion=='B3':
